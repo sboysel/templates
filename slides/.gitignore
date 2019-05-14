@@ -3,6 +3,10 @@
 *.blg
 *.fls
 *.fdb_latexmk
+*.nav
 *.out
+*.snm
 *.synctex.gz
 *.log
+*.xdv
+*.toc

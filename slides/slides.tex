@@ -1,0 +1,89 @@
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usetheme{Madrid}
+\usecolortheme{beaver}
+\setbeamercolor{titlelike}{parent=structure} % remove title background
+\beamertemplatenavigationsymbolsempty % remove navigation
+
+\usepackage{natbib}
+
+\title[Short Title]{Title}
+\subtitle{Subtitle}
+\author[Last Name]{Full Name}
+% USC Shield Source: https://web-app.usc.edu/web/identity/elements/shield.zip
+\institute[Inst Short]{Institute \\ \includegraphics[height=2cm]{usc_shield.eps}}
+\date{\today}
+
+\begin{document}
+
+%% [0.1] TITLEPAGE
+
+\frame{\titlepage}
+
+%% [0.2] OUTLINE
+
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+%% [1] INTRODUCTION
+
+\section{Introduction}
+
+\begin{frame}
+\frametitle{Introduction}
+
+\begin{alertblock}{Motivation}
+\end{alertblock}
+
+\begin{block}{Question}
+\end{block}
+
+\end{frame}
+
+%% [2] LITERATURE
+
+\section{Literature}
+
+\begin{frame}
+\frametitle{Literature}
+
+\end{frame}
+
+%% [3] METHODOLOGY
+
+\section{Methodology}
+
+\begin{frame}
+\frametitle{Methodology}
+
+\end{frame}
+
+%% [4] DATA
+
+\section{Data}
+
+\begin{frame}
+\frametitle{Data}
+
+\end{frame}
+
+%% [5] CONCLUSION
+
+\section{Conclusion}
+
+\begin{frame}
+\frametitle{Conclusion}
+
+\end{frame}
+
+%% [B] BIBLIOGRAPHY
+
+\begin{frame}<presentation:0>
+  \bibliographystyle{chicago}
+  \bibliography{references}
+\end{frame}
+
+\end{document}
